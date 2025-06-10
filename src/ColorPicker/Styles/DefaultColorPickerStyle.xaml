@@ -5,6 +5,7 @@
             <ResourceDictionary>
                 <ResourceDictionary.MergedDictionaries>
                     <ResourceDictionary Source="DarkTabControlStyle.xaml" />
+                    <ResourceDictionary Source="DarkTextBoxStyle.xaml" />
                 </ResourceDictionary.MergedDictionaries>
                 <Style TargetType="Label">
                     <Setter Property="Foreground" Value="Snow" />
