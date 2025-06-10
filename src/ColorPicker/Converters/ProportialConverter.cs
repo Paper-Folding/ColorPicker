@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Windows.Data;
 
 namespace ColorPicker.Converters
 {
-    internal class ProportialConverter : IMultiValueConverter
+    public class ProportialConverter : IMultiValueConverter
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {

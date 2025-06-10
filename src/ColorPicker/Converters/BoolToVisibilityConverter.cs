@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
@@ -6,7 +6,7 @@ using System.Windows.Data;
 namespace ColorPicker.Converters
 {
     [ValueConversion(typeof(bool), typeof(Visibility))]
-    internal class BoolToVisibilityConverter : DependencyObject, IValueConverter
+    public class BoolToVisibilityConverter : DependencyObject, IValueConverter
     {
         public static DependencyProperty InvertProperty =
             DependencyProperty.Register(nameof(Invert), typeof(bool), typeof(BoolToVisibilityConverter),

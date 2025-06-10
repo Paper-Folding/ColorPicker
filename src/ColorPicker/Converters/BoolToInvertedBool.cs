@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Windows.Data;
 
 namespace ColorPicker.Converters
 {
     [ValueConversion(typeof(bool), typeof(bool))]
-    internal class BoolToInvertedBoolConverter : IValueConverter
+    public class BoolToInvertedBoolConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {

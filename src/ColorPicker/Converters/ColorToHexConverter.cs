@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
@@ -8,7 +8,7 @@ using ColorPicker.Models;
 namespace ColorPicker.Converters
 {
     [ValueConversion(typeof(Color), typeof(string))]
-    internal class ColorToHexConverter : DependencyObject, IValueConverter
+    public class ColorToHexConverter : DependencyObject, IValueConverter
     {
         public static DependencyProperty ShowAlphaProperty =
             DependencyProperty.Register(nameof(ShowAlpha), typeof(bool), typeof(ColorToHexConverter),

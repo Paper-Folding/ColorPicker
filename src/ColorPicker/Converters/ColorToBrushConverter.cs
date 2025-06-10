@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
@@ -6,7 +6,7 @@ using System.Windows.Media;
 namespace ColorPicker.Converters
 {
     [ValueConversion(typeof(Color), typeof(SolidColorBrush))]
-    internal class ColorToBrushConverter : IValueConverter
+    public class ColorToBrushConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {

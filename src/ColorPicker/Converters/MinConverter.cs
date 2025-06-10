@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Linq;
 using System.Windows.Data;
 
 namespace ColorPicker.Converters
 {
-    internal class MinConverter : IMultiValueConverter
+    public class MinConverter : IMultiValueConverter
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
