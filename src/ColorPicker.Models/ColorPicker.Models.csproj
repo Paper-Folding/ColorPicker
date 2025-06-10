@@ -3,7 +3,6 @@
     <PropertyGroup>
         <TargetFrameworks>net481;net8.0</TargetFrameworks>
         <RootNamespace>ColorPicker.Models</RootNamespace>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>PixiEditor.ColorPicker.Models</PackageId>
         <Title>Common logic of PixiEditor.ColorPicker</Title>
         <Authors>Egor Mozgovoy, Krzysztof Krysiński</Authors>
@@ -15,8 +14,6 @@
         <PackageTags>color color-picker graphics wpf avaloniaui</PackageTags>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <SignAssembly>true</SignAssembly>
-        <AssemblyOriginatorKeyFile>sgkey.snk</AssemblyOriginatorKeyFile>
         <Version>1.0.7</Version>
     </PropertyGroup>
 
