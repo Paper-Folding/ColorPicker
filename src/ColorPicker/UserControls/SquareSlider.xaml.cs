@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
@@ -9,7 +9,7 @@ using ColorPicker.Models;
 
 namespace ColorPicker.UserControls
 {
-    internal partial class SquareSlider : UserControl, INotifyPropertyChanged
+    public partial class SquareSlider : UserControl, INotifyPropertyChanged
     {
         public static readonly DependencyProperty HueProperty
             = DependencyProperty.Register(nameof(Hue), typeof(double), typeof(SquareSlider),

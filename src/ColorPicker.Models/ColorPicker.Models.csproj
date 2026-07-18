@@ -1,9 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net451;netcoreapp3.1;net5.0-windows;net6.0-windows;net7.0-windows;net6.0;net7.0;net8.0</TargetFrameworks>
+        <TargetFrameworks>net481;net8.0</TargetFrameworks>
         <RootNamespace>ColorPicker.Models</RootNamespace>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>PixiEditor.ColorPicker.Models</PackageId>
         <Title>Common logic of PixiEditor.ColorPicker</Title>
         <Authors>Egor Mozgovoy, Krzysztof Krysiński</Authors>
@@ -15,8 +14,6 @@
         <PackageTags>color color-picker graphics wpf avaloniaui</PackageTags>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <SignAssembly>true</SignAssembly>
-        <AssemblyOriginatorKeyFile>sgkey.snk</AssemblyOriginatorKeyFile>
         <Version>1.0.11</Version>
     </PropertyGroup>
 

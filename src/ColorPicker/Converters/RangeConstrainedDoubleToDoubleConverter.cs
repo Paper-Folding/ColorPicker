@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
@@ -7,7 +7,7 @@ using ColorPicker.Models;
 namespace ColorPicker.Converters
 {
     [ValueConversion(typeof(double), typeof(string))]
-    internal class RangeConstrainedDoubleToDoubleConverter : DependencyObject, IValueConverter
+    public class RangeConstrainedDoubleToDoubleConverter : DependencyObject, IValueConverter
     {
         public static DependencyProperty MinProperty =
             DependencyProperty.Register(nameof(Min), typeof(double), typeof(RangeConstrainedDoubleToDoubleConverter),
