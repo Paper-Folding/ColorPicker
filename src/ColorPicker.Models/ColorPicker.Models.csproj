@@ -14,7 +14,7 @@
         <PackageTags>color color-picker graphics wpf avaloniaui</PackageTags>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <Version>1.0.7</Version>
+        <Version>1.0.11</Version>
     </PropertyGroup>
 
     <ItemGroup>
