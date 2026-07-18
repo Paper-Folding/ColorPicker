@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net481;net8.0</TargetFrameworks>
+        <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
         <RootNamespace>ColorPicker.Models</RootNamespace>
         <PackageId>PixiEditor.ColorPicker.Models</PackageId>
         <Title>Common logic of PixiEditor.ColorPicker</Title>
