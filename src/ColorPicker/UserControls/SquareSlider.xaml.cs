@@ -168,8 +168,8 @@ namespace ColorPicker.UserControls
 
         private void UpdatePos(Point pos)
         {
-            HeadX = MathHelper.Clamp(pos.X / ActualWidth, 0, 1) * RangeX;
-            HeadY = (1 - MathHelper.Clamp(pos.Y / ActualHeight, 0, 1)) * RangeY;
+            HeadX = Math.Clamp(pos.X / ActualWidth, 0, 1) * RangeX;
+            HeadY = (1 - Math.Clamp(pos.Y / ActualHeight, 0, 1)) * RangeY;
         }
 
         private void OnMouseUp(object sender, MouseButtonEventArgs e)
