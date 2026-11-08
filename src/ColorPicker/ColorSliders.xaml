@@ -27,7 +27,7 @@
     <TabControl Margin="10" MaxHeight="130" VerticalAlignment="Top">
         <TabControl.Resources>
             <Style TargetType="TabPanel">
-                <Setter Property="HorizontalAlignment" Value="Right" />
+                <Setter Property="HorizontalAlignment" Value="Left" />
             </Style>
         </TabControl.Resources>
         <TabItem Header="HSV">

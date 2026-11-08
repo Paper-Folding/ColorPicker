@@ -4,6 +4,9 @@
 
 # WPF version of ColorPicker
 
+> This fork of ColorPicker is modified by me to adapt to [Wpf.UI](https://github.com/lepoco/wpfui) theme on my application,  
+> because Wpf.UI's global styles are not applied by default, if you intend to use my fork, sure to introduce Wpf.UI dependency and corresponding resource dictionary correctly on your main application's "App.xml" or other related files.
+
 ![demo project](https://i.imgur.com/wZkkykY.png)
 
 # Example Usage
