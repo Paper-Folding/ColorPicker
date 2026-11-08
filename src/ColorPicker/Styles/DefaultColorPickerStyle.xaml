@@ -4,8 +4,8 @@
         <Style.Resources>
             <ResourceDictionary>
                 <ResourceDictionary.MergedDictionaries>
-                    <ResourceDictionary Source="DarkTabControlStyle.xaml" />
-                    <ResourceDictionary Source="DarkTextBoxStyle.xaml" />
+                    <ResourceDictionary Source="ThemedTabControlStyle.xaml" />
+                    <ResourceDictionary Source="ThemedTextBoxStyle.xaml" />
                 </ResourceDictionary.MergedDictionaries>
                 <Style TargetType="Label">
                     <Setter Property="Foreground" Value="Snow" />
